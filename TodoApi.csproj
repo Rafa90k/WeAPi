@@ -13,4 +13,9 @@
     <PackageReference Include="TheFluentificator" Version="1.0.2" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Content Include=".gitignore" />
+    <Content Include="obj\.gitignore" />
+  </ItemGroup>
+
 </Project>
