@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/rafael/WebApi/TodoApi/TodoApi.csproj": {}
+    "/home/rafael/RiderProjects/WeAPiCadastro/TodoApi.csproj": {}
   },
   "projects": {
-    "/home/rafael/WebApi/TodoApi/TodoApi.csproj": {
+    "/home/rafael/RiderProjects/WeAPiCadastro/TodoApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/rafael/WebApi/TodoApi/TodoApi.csproj",
+        "projectUniqueName": "/home/rafael/RiderProjects/WeAPiCadastro/TodoApi.csproj",
         "projectName": "TodoApi",
-        "projectPath": "/home/rafael/WebApi/TodoApi/TodoApi.csproj",
+        "projectPath": "/home/rafael/RiderProjects/WeAPiCadastro/TodoApi.csproj",
         "packagesPath": "/home/rafael/.nuget/packages/",
-        "outputPath": "/home/rafael/WebApi/TodoApi/obj/",
+        "outputPath": "/home/rafael/RiderProjects/WeAPiCadastro/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/rafael/.nuget/NuGet/NuGet.Config"
@@ -50,6 +50,10 @@
               "target": "Package",
               "version": "[6.2.3, )"
             },
+            "Swashbuckle.AspNetCore.Annotations": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            },
             "TheFluentificator": {
               "target": "Package",
               "version": "[1.0.2, )"
@@ -61,7 +65,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -73,7 +78,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.200/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.102/RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "y6/3YJ4KPzvC9oLWaL60R8Ajw9vodfnNNs2I5IFFD+H1d9wxmPGohdVFZxEGjGCwC7B6Iwt0YOZSXRoq3zZN9A==",
+  "dgSpecHash": "tAgO2YNv/p763rEEThu+IC+KWtiggf1lYdP2KqN2T0NnPSQCtnm9hz/dtR+Bv2FpVTt/KQifKaP/ONEsQFCYtA==",
   "success": true,
-  "projectFilePath": "/home/rafael/WebApi/TodoApi/TodoApi.csproj",
+  "projectFilePath": "/home/rafael/RiderProjects/WeAPiCadastro/TodoApi.csproj",
   "expectedPackageFiles": [
     "/home/rafael/.nuget/packages/microsoft.data.sqlite.core/6.0.0/microsoft.data.sqlite.core.6.0.0.nupkg.sha512",
     "/home/rafael/.nuget/packages/microsoft.entityframeworkcore/7.0.0-preview.1.22076.6/microsoft.entityframeworkcore.7.0.0-preview.1.22076.6.nupkg.sha512",
@@ -29,8 +29,9 @@
     "/home/rafael/.nuget/packages/sqlitepclraw.lib.e_sqlite3/2.0.6/sqlitepclraw.lib.e_sqlite3.2.0.6.nupkg.sha512",
     "/home/rafael/.nuget/packages/sqlitepclraw.provider.e_sqlite3/2.0.6/sqlitepclraw.provider.e_sqlite3.2.0.6.nupkg.sha512",
     "/home/rafael/.nuget/packages/swashbuckle.aspnetcore/6.2.3/swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
-    "/home/rafael/.nuget/packages/swashbuckle.aspnetcore.swagger/6.2.3/swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
-    "/home/rafael/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.2.3/swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "/home/rafael/.nuget/packages/swashbuckle.aspnetcore.annotations/6.5.0/swashbuckle.aspnetcore.annotations.6.5.0.nupkg.sha512",
+    "/home/rafael/.nuget/packages/swashbuckle.aspnetcore.swagger/6.5.0/swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
+    "/home/rafael/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.5.0/swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
     "/home/rafael/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.2.3/swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512",
     "/home/rafael/.nuget/packages/system.buffers/4.5.1/system.buffers.4.5.1.nupkg.sha512",
     "/home/rafael/.nuget/packages/system.collections.immutable/7.0.0-preview.1.22076.8/system.collections.immutable.7.0.0-preview.1.22076.8.nupkg.sha512",
@@ -46,7 +47,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'TheFluentificator 1.0.2' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "message": "Package 'TheFluentificator 1.0.2' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
       "libraryId": "TheFluentificator",
       "targetGraphs": [
         "net6.0"
