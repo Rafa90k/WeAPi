@@ -21,27 +21,20 @@ namespace TodoApi.Controllers
 
         [HttpGet]
         [Route("Obter todos os usuarios")]
-        [SwaggerResponse((int)HttpStatusCode.OK, nameof(HttpStatusCode.OK))]
-        [SwaggerResponse((int)HttpStatusCode.BadRequest,  nameof(HttpStatusCode.BadRequest))]
-        [SwaggerResponse((int)HttpStatusCode.InternalServerError, nameof(HttpStatusCode.InternalServerError))]
         public async Task<IEnumerable<User>> GetUsers()
         {
             return await _userRepository.Get();
         }
 
-        [HttpGet("{id}")]
+        [HttpGet]
         [Route("Obter usuario pelo id")]
-        [SwaggerResponse((int)HttpStatusCode.OK, nameof(HttpStatusCode.OK))]
-        [SwaggerResponse((int)HttpStatusCode.BadRequest,  nameof(HttpStatusCode.BadRequest))]
-        [SwaggerResponse((int)HttpStatusCode.InternalServerError, nameof(HttpStatusCode.InternalServerError))]
+        
 
         public async Task<ActionResult<User>> GetUsers(int id) => await _userRepository.Get(id);
         
         [HttpPost]
         [Route("Criar usuario")]
-        [SwaggerResponse((int)HttpStatusCode.OK, nameof(HttpStatusCode.OK))]
-        [SwaggerResponse((int)HttpStatusCode.BadRequest,  nameof(HttpStatusCode.BadRequest))]
-        [SwaggerResponse((int)HttpStatusCode.InternalServerError, nameof(HttpStatusCode.InternalServerError))]
+        
         public async Task<ActionResult<User>> PostUsers([FromBody] User user)
         {
             try
@@ -60,11 +53,8 @@ namespace TodoApi.Controllers
 
         }
 
-        [HttpDelete("{Id}")]
+        [HttpDelete]
         [Route("Deletar usuario")]
-        [SwaggerResponse((int)HttpStatusCode.OK, nameof(HttpStatusCode.OK))]
-        [SwaggerResponse((int)HttpStatusCode.BadRequest,  nameof(HttpStatusCode.BadRequest))]
-        [SwaggerResponse((int)HttpStatusCode.InternalServerError, nameof(HttpStatusCode.InternalServerError))]
 
         public async Task<ActionResult> Delete(int Id)
         {
@@ -80,9 +70,7 @@ namespace TodoApi.Controllers
 
         [HttpPut]
         [Route("Atualizar usuario")]
-        [SwaggerResponse((int)HttpStatusCode.OK, nameof(HttpStatusCode.OK))]
-        [SwaggerResponse((int)HttpStatusCode.BadRequest,  nameof(HttpStatusCode.BadRequest))]
-        [SwaggerResponse((int)HttpStatusCode.InternalServerError, nameof(HttpStatusCode.InternalServerError))]
+        
         public async Task<ActionResult> PutUsers(int Id, [FromBody] User user)
         {
             try

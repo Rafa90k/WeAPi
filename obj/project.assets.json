@@ -1533,24 +1533,26 @@
     ]
   },
   "packageFolders": {
-    "/home/rafael/.nuget/packages/": {}
+    "C:\\Users\\User\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/rafael/RiderProjects/WeAPiCadastro/TodoApi.csproj",
+      "projectUniqueName": "C:\\Estudos\\WeAPi\\TodoApi.csproj",
       "projectName": "TodoApi",
-      "projectPath": "/home/rafael/RiderProjects/WeAPiCadastro/TodoApi.csproj",
-      "packagesPath": "/home/rafael/.nuget/packages/",
-      "outputPath": "/home/rafael/RiderProjects/WeAPiCadastro/obj/",
+      "projectPath": "C:\\Estudos\\WeAPi\\TodoApi.csproj",
+      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+      "outputPath": "C:\\Estudos\\WeAPi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/rafael/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -1609,7 +1611,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.102/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
       }
     }
   },
